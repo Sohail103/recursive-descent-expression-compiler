@@ -6,6 +6,6 @@
 #define RP 5            // )
 #define NUM_OR_ID 6     // decimal number or identifier
 
-extern char **yytext; // pointer to the current token text
+extern char *yytext; // pointer to the current token text
 extern int yyleng;    // length of the current token text
 extern int yylineno;  // current line number
